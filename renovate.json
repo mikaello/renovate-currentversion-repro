@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchCurrentVersion": "/^[0-9]+\\.[0-9]+\\.0$/",
+      "addLabels": ["beware"]
+    }
+  ]
+}
